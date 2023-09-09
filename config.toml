@@ -1,0 +1,124 @@
+# token to claim nitro's on..
+mainToken = ""
+# claim the sniped nitros on main account, if false nitro will be claimed on whichever token sniped it
+claimOnMain = true
+# claims in queue.txt, you can't have claimOnMain and claimOnQueue set to true at same time.
+claimOnQueue = false
+
+# check messages on main account
+snipeOnMain = false
+#use alts to snipe
+useAlts = true
+
+#use proxies for invite scraper
+useProxies = false
+
+#Do you want to show off your successful snipes in our discord server?
+sendSuccessWebhook = true
+# put down your discord ID (for example: 1106675525499506790)
+successWebhookUsername = ""
+
+#snipe pastes
+snipePastes = false
+#save paste content
+savePastes = false
+#if snipe-pastes is true, the paste tools that are set to true will be sniped
+#supported pastes:
+#"safenote.co", "controlc.com", "commie.io", "vpaste.net",
+#"ivpaste.com", "justpaste.it", "apaste.info", "ghostbin.com",
+#"ghostbin.co", "secureshare.support", "1ty.me", "quickforget.com",
+#"temp.pm", "privatty.com", "saltify.io", "onetimesecret.com", "revealit.me",
+#"pastebin.com", "anonfiles.com", "hatebin.com", "gofile.io", "paste2.org",
+#"slexy.org", "pastelink.net", "paste.org.ru", "dumpz.org",
+#"heypasteit.com", "paste.centos.org", "paste.ee", "paste.ofcode.org",
+#"justpaste.me"
+pasteTools = [
+  "safenote.co",
+  "controlc.com",
+  "commie.io",
+  "vpaste.net",
+  "ivpaste.com",
+  "justpaste.it",
+  "apaste.info",
+  "ghostbin.com",
+  "ghostbin.co",
+  "secureshare.support",
+  "1ty.me",
+  "quickforget.com",
+  "temp.pm",
+  "privatty.com",
+  "saltify.io",
+  "onetimesecret.com",
+  "revealit.me",
+  "pastebin.com",
+  "anonfiles.com",
+  "hatebin.com",
+  "gofile.io",
+  "paste2.org",
+  "slexy.org",
+  "pastelink.net",
+  "paste.org.ru",
+  "dumpz.org",
+  "heypasteit.com",
+  "paste.centos.org",
+  "paste.ee",
+  "paste.ofcode.org",
+  "justpaste.me"
+]
+
+webhookGiveawayJoined = ""
+webhookSentGiveawayDM = ""
+webhookGiveawayWon = ""
+webhookNitroFailed = ""
+webhookNitroClaimed = ""
+
+scrapeInvites = true
+captureInvites = false
+showScrapedInvites = true
+saveScrapedInvites = true
+
+#join giveaways
+joinGiveaways = false
+#join giveaways on alts only
+joinGiveawaysAltsOnly = false
+#join giveaways after this many seconds, 0 for instant
+joinGiveawaysDelay = 25
+#auto claim giveaway
+autoClaimGiveaway = false
+#auto claim delay, will send message after this many seconds
+autoClaimDelay = 15
+#auto claim giveaway message
+autoclaimGiveawayMessage = "hey i won the giveaway"
+#dont join giveaways that contain these words
+blacklistWordsGiveaway = ["ban","sniper/selfbot", "test","sniper","selfbot"]
+#ONLY join giveaways that contain these words (case insensitive)
+whitelistWordsGiveaway = ["nitro"]
+
+#if removeDuplicates=true, nitro codes will be saved and won't be checked again
+removeDuplicates = true
+showDuplicates = true
+
+showFakes = true #shows fake nitros in the console
+
+#Optical Character Recognition, will snipe nitro code in images
+OCR = false
+#will snipe nitro code in QRCodes
+QRCode = false
+
+# if saveDuplicateGuild=true, it will ask you if you want leave duplicate guilds on alts on start
+saveDuplicateGuilds = false
+
+# type .stats in any channel to see sniper stats
+webhookStats = true
+# Send stats to this webhook
+webhookStatsLink = ""
+# Custom stat command
+webhookStatsCommand = ".stats"
+
+# Try to redeem words that looks like Nitro gift code
+smartSnipe = true
+
+# Will snipe gift link in txt file
+snipeInTxt = false
+
+antiSpam = true
